@@ -1,6 +1,6 @@
 # RTOS (REAL TIME OPERATING SYSTEM) 
 
-# what is RTOS
+# What is RTOS
 
 
 
