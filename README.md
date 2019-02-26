@@ -17,3 +17,9 @@
 
 * <a href="http://www.chibios.org/dokuwiki/doku.php">ChibiOS/RT</a>: is designed for embedded applications on 8, 16 and 32 bit microcontrollers; size and execution efficiency are the main project goals.[2] As reference, the kernel size can range from a minimum of 1.2 Kib up to a maximum of 5.5 KiB with all the subsystems activated on a STM32 Cortex-M3 processor. The kernel is capable of over 220,000 created/terminated threads per second and is able to perform a context switch in 1.2 microseconds on an STM32 @ 72 MHz. Similar metrics for all the supported platforms are included in the source distribution as test reports. 
 github :https://github.com/ChibiOS/
+
+# projects
+1. Arduino UNo (ATmega328P 8-bit μc)
+   OS: FreeRTOS
+   lib:
+   
