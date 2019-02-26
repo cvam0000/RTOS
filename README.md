@@ -21,5 +21,6 @@ github :https://github.com/ChibiOS/
 # projects
 1. Arduino UNo (ATmega328P 8-bit μc)
    OS: FreeRTOS
-   lib:
+   lib:https://github.com/feilipu/Arduino_FreeRTOS_Library
+   * Example 1 [blink AnalogRead]
    
