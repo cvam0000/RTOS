@@ -9,9 +9,9 @@
 
 * Jitter
 
-*Faster
+* Faster
 
-*Linux mainline kernel was not designed as RTOS
+* Linux mainline kernel was not designed as RTOS
 
 # Distributions 
 
