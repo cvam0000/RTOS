@@ -1,9 +1,12 @@
 # RTOS (REAL TIME OPERATING SYSTEM) 
 
-# What is RTOS
-
-
-
+# What RTOS needs to be Deterministic
+•Interrupt & Context switch
+•Preemption
+•Latency
+•Jitter
+•Faster 
+•Linux mainline kernel was not designed as RTOS
 
 # Distributions 
 
