@@ -36,9 +36,9 @@ github :https://github.com/ChibiOS/
    OS :RTlinux
    ## cross compile the RTlinux on any linux distro
    ###### Step 1. Download the Raspberrypi tool , Kernel sources. 
-   > https://github.com/raspberrypi/tools.git
+   > # https://github.com/raspberrypi/tools.git
    
-   > git clone -b rpi-3.18.9-rt5 https://github.com/emlid/linux-rt-rpi.gi
+   > # git clone -b rpi-3.18.9-rt5 https://github.com/emlid/linux-rt-rpi.gi
    
    **# cd Linux-rt-rpi** 
    ###### step 2. Export the following variables to specify cross-compilation 
