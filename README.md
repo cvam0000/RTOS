@@ -1,4 +1,5 @@
 # RTOS (REAL TIME OPERATING SYSTEM) 
+###### When it Matters, it Runs on RTOS
 
 # What RTOS needs to be Deterministic
 * Interrupt & Context switch
