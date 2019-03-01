@@ -34,4 +34,7 @@ github :https://github.com/ChibiOS/
 2. Raspberry Pi 3 Model B+ 
 
    OS :RTlinux
+   * cross compile the RTlinux on any linux distro
+   > Download the Raspberrypi tool . 
+   https://github.com/raspberrypi/tools.git
    
