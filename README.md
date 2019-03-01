@@ -38,5 +38,15 @@ github :https://github.com/ChibiOS/
    ###### Step 1. Download the Raspberrypi tool , Kernel sources. 
    > https://github.com/raspberrypi/tools.git
    
-   > git clone -b rpi-3.18.9-rt5 https://github.com/emlid/linux-rt-rpi.git
+   > git clone -b rpi-3.18.9-rt5 https://github.com/emlid/linux-rt-rpi.gi
+   
+   ** cd Linux-rt-rpi **
+   ###### step 2. Export the following variables to specify cross-compilation 
+   **export ARCH=arm **
+   **export CROSS_COMPILE=~/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-**
+   
+   
+   
+   
+   
    
