@@ -50,7 +50,7 @@ github :https://github.com/ChibiOS/
    
    ###### For Raspberry Pi 3:
 
-    ```$ make bcm2709_rt_defconfig   
+    ```$ make bcm2709_rt_defconfig```
    ###### compile the kernel
      ```$ make -j5```
    ######Install modules, will result in "lib" folder with modules and firmware:
