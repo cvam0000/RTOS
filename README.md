@@ -53,7 +53,7 @@ github :https://github.com/ChibiOS/
     ```$ make bcm2709_rt_defconfig```
    ###### compile the kernel
      ```$ make -j5```
-   ######Install modules, will result in "lib" folder with modules and firmware:
+   ###### Install modules, will result in "lib" folder with modules and firmware:
     ```$ mkdir kernel-rt```
    
     ```$ INSTALL_MOD_PATH=kernel-rt make modules_install```
