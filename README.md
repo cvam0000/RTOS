@@ -55,17 +55,17 @@ github :https://github.com/ChibiOS/
      ```$ make -j5```
    ###### Install modules, will result in "lib" folder with modules and firmware:
     ```$ mkdir kernel-rt```
-   # Testing real-time capabilites using cyclictest utility
+  
     ```$ INSTALL_MOD_PATH=kernel-rt make modules_install```
    ###### Testing real-time capabilites using cyclictest utility
-  ``` git clone git://git.kernel.org/pub/scm/linux/kernel/git/clrkwllms/rt-tests.git```
+    ``` git clone git://git.kernel.org/pub/scm/linux/kernel/git/clrkwllms/rt-tests.git```
   
-``` cd rt-tests```
+    ``` cd rt-tests```
+ 
+    ```make all```
 
-```make all```
+    ```cp ./cyclictest /usr/bin/```
 
-```cp ./cyclictest /usr/bin/```
+    ```cd ~```
 
-```cd ~```
-
-```sudo cyclictest -l1000000 -m -n -a0 -t1 -p99 -i400 -h400 -q```
+    ```sudo cyclictest -l1000000 -m -n -a0 -t1 -p99 -i400 -h400 -q```
