@@ -64,7 +64,7 @@ github :https://github.com/ChibiOS/
  
     ```make all```
 
-    ```cp ./cyclictest /usr/bin/```
+    ```sudo cp ./cyclictest /usr/bin/```
 
     ```cd ~```
 
