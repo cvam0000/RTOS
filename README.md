@@ -41,21 +41,21 @@ github :https://github.com/ChibiOS/
    
    > #git clone -b rpi-3.18.9-rt5 https://github.com/emlid/linux-rt-rpi.gi
    
-   **# cd Linux-rt-rpi** 
+     **# cd Linux-rt-rpi** 
    ###### step 2. Export the following variables to specify cross-compilation 
-   **# export ARCH=arm**
+     **# export ARCH=arm**
    
-   **# export CROSS_COMPILE=~/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-**
+     **# export CROSS_COMPILE=~/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-**
    
    
    ####### For Raspberry Pi 3:
 
-    #make bcm2709_rt_defconfig
+     **#make bcm2709_rt_defconfig**
    ###### compile the kernel
-   #make -j5
+     **#make -j5**
    ######Install modules, will result in "lib" folder with modules and firmware:
-   #mkdir kernel-rt
+     **#mkdir kernel-rt**
    
-   #INSTALL_MOD_PATH=kernel-rt make modules_install
+     **#INSTALL_MOD_PATH=kernel-rt make modules_install**
    
    
