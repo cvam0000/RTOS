@@ -58,9 +58,9 @@ github :https://github.com/ChibiOS/
    # How
     ```$ INSTALL_MOD_PATH=kernel-rt make modules_install```
    ###### Testing real-time capabilites using cyclictest utility
-  ``` git clone git://git.kernel.org/pub/scm/linux/kernel/git/clrkwllms/rt-tests.git 
-cd rt-tests
-make all
-cp ./cyclictest /usr/bin/
-cd ~```
+  ``` git clone git://git.kernel.org/pub/scm/linux/kernel/git/clrkwllms/rt-tests.git```
+``` cd rt-tests```
+```make all```
+```cp ./cyclictest /usr/bin/```
+```cd ~```
 ```sudo cyclictest -l1000000 -m -n -a0 -t1 -p99 -i400 -h400 -q```
