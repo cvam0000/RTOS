@@ -48,7 +48,10 @@ github :https://github.com/ChibiOS/
    **# export CROSS_COMPILE=~/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-**
    
    
-   
+   **For Raspberry Pi 3:**
+
+   #make bcm2709_rt_defconfig
+
    
    
    
