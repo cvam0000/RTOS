@@ -44,12 +44,12 @@ Truth : RTC is predictable computing , timeliness is more important than perfoma
    - Many supported architectures and platforms.
    - Static architecture, everything is statically allocated at compile time.
    - Dynamic extensions, dynamic objects are supported by an optional layer built on top of the static core.
-    -Rich set of primitives: threads, virtual timers, semaphores, mutexes, condition variables, messages, mailboxes, event flags, queues.
+   - Rich set of primitives: threads, virtual timers, semaphores, mutexes, condition variables, messages, mailboxes, event flags, queues.
    - Support for priority inheritance algorithm on mutexes.
     - Hardware Abstraction Layer (HAL) component supporting a variety of abstract device drivers: Port, Serial, ADC, CAN, EXT, GPT, I2C, ICU, MAC, MMC, PWM, RTC, SDC, SPI, UART, USB, USB-CDC.
-    Support for external components uIP, lwIP, FatFs.
-    Extensive test suite with benchmarks.
-    Support for C++ applications.
+    - Support for external components uIP, lwIP, FatFs.
+    - Extensive test suite with benchmarks.
+    - Support for C++ applications.
 
 github :https://github.com/ChibiOS/
 
