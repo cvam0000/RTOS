@@ -6,6 +6,11 @@ Myth : RTC (Real Time computing) is fast computing with higher performance
 Truth : RTC is predictable computing , timeliness is more important than perfomance.
 - RTOS deals with gurantees , not with raw speed . having more processor , more RAM ,faster BUS interfaces does't make a system real time , it deals with GUARANTEES
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cvam0000/RTOS/master/extra/rtos.png" width="350" title="">
+  
+</p>
+
 
 # What RTOS needs to be Deterministic
 * Interrupt & Context switch
