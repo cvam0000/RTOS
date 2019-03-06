@@ -37,6 +37,20 @@ Truth : RTC is predictable computing , timeliness is more important than perfoma
 * <a href="http://www.rtlinux.org/">RTlinux</a> :RTLinux is a hard realtime real-time operating system (RTOS) microkernel that runs the entire Linux operating system as a fully preemptive process. The hard real-time property makes it possible to control robots, data acquisition systems, manufacturing plants, and other time-sensitive instruments and machines from RTLinux applications. Even with a similar name it is not related the Real-Time Linux project of the Linux Foundation.
 
 * <a href="http://www.chibios.org/dokuwiki/doku.php">ChibiOS/RT</a>: is designed for embedded applications on 8, 16 and 32 bit microcontrollers; size and execution efficiency are the main project goals.[2] As reference, the kernel size can range from a minimum of 1.2 Kib up to a maximum of 5.5 KiB with all the subsystems activated on a STM32 Cortex-M3 processor. The kernel is capable of over 220,000 created/terminated threads per second and is able to perform a context switch in 1.2 microseconds on an STM32 @ 72 MHz. Similar metrics for all the supported platforms are included in the source distribution as test reports. 
+
+
+   - Efficient and portable preemptive kernel.
+   - Best in class context switch performance.
+   - Many supported architectures and platforms.
+   - Static architecture, everything is statically allocated at compile time.
+   - Dynamic extensions, dynamic objects are supported by an optional layer built on top of the static core.
+    -Rich set of primitives: threads, virtual timers, semaphores, mutexes, condition variables, messages, mailboxes, event flags, queues.
+   - Support for priority inheritance algorithm on mutexes.
+    - Hardware Abstraction Layer (HAL) component supporting a variety of abstract device drivers: Port, Serial, ADC, CAN, EXT, GPT, I2C, ICU, MAC, MMC, PWM, RTC, SDC, SPI, UART, USB, USB-CDC.
+    Support for external components uIP, lwIP, FatFs.
+    Extensive test suite with benchmarks.
+    Support for C++ applications.
+
 github :https://github.com/ChibiOS/
 
 # projects
