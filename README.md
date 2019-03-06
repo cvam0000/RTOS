@@ -7,7 +7,7 @@ Truth : RTC is predictable computing , timeliness is more important than perfoma
 - RTOS deals with gurantees , not with raw speed . having more processor , more RAM ,faster BUS interfaces does't make a system real time , it deals with GUARANTEES
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/cvam0000/RTOS/master/extra/rtos.png" width="350" title="">
+  <img src="https://raw.githubusercontent.com/cvam0000/RTOS/master/extra/rtos.png" width="450" title="">
   
 </p>
 
@@ -43,6 +43,7 @@ github :https://github.com/ChibiOS/
    OS: FreeRTOS
    lib:https://github.com/feilipu/Arduino_FreeRTOS_Library
    * Example 1 [blink AnalogRead]
+   * Example 2 [ultrasonic sensor response at Real time]
 2. Raspberry Pi 3 Model B+ 
 
    OS :RTlinux
